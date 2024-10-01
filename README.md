@@ -6,13 +6,13 @@ A prototype for future QR codes.
 
 Watched a video and decided to mess around with encoding information. This is the idea I came up with. The colors used to respresent data are White, Black, RGB and CMY, giving us a total 512 bits of storage per 3 pixels (8x8x8).
 
-So, to encode a single pixel with ColorQR only takes 3 pixels, while a QR code requires 8 pixels. Basically, giving us a 62.5% more efficient QR code!
+So, to encode a single pixel with ColorQR, it only takes 3 pixels, while a regular QR code requires 8 pixels. Basically, giving us a 62.5% more efficient QR code!
 
-What you see in the picture above, is raw data encoded using ColorQR. Further implementation of error-correction and metadata needed, to make it a viable alternative.
+What you see in the picture above, is raw data encoded using ColorQR. Further implementation of error-correction and metadata needed, to make it a viable production-ready alternative.
 
 References: 
 
-* [https://www.youtube.com/watch?v=w5ebcowAJD8](https://www.youtube.com/watch?v=w5ebcowAJD8)
+* [Veritasium video - https://www.youtube.com/watch?v=w5ebcowAJD8](https://www.youtube.com/watch?v=w5ebcowAJD8)
 
 ## Representation table
 
